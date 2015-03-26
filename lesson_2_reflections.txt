@@ -11,12 +11,15 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    Branching helps when you are trying out something that you are not (yet) should should be part of the project. Also, having a development branch could be useful as you could still be working on that, while leaving the master branch free for bug fixes etc.
 
 How do the diagrams help you visualize the branch structure?
+    by visualising the branch structure... duh!
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    Merge combines the changes of two branches back into a single commit. The changes that were made separately in the two branches now reside in the same file(s)
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-
+    automatic merging takes a lot of compare work out of your hands; however, some tricky situations may arise when similar functions get different names, or people resolve the same task in different parts of the code.
